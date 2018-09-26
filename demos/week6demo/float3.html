@@ -8,16 +8,7 @@
 			background-color: green;
 			overflow: hidden;
 		}
-		.mycontainer div {
-			background-color: blue;
-			width: 200px;
-			height: 100px;
-			margin: 10px;
-			position: relative;
-      top: 200px;
-      right: -200px;
-		}
-		
+    
 		#sidebar {
 			background-color: blue;
 			width: 350px;
@@ -29,15 +20,32 @@
 		.mycontainer h2 {
 			clear:both;
 		}
-		.overflow {
-			overflow:scroll;
+		.mycontainer .overflow {
+			overflow: scroll;
+      height: 200px;
+      width: 400px;
+      background-color: yellow;
+      position: relative;
+      left: 200px;
 		}
+    
+    #divtwo {
+      background-color: red;
+      float: right;
+      width: 900px;
+      height: 300px;
+      right: 200px;
+      top: 200px;
+    }
+    
 	</style>
 </head>
 <body>
 	<div class="mycontainer">
-		<div class="overflow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veritatis omnis quaerat repellendus explicabo ipsa, voluptatum provident esse mollitia, dolorum vero dicta non! Libero maiores ab, assumenda, sed aspernatur odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veritatis omnis quaerat repellendus explicabo ipsa, voluptatum provident esse mollitia, dolorum vero dicta non! Libero maiores ab, assumenda, sed aspernatur odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veritatis omnis quaerat repellendus explicabo ipsa, voluptatum provident esse mollitia, dolorum vero dicta non! Libero maiores ab, assumenda, sed aspernatur odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veritatis omnis quaerat repellendus explicabo ipsa, voluptatum provident esse mollitia, dolorum vero dicta non! Libero maiores ab, assumenda, sed aspernatur odit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veritatis omnis quaerat repellendus explicabo ipsa, voluptatum provident esse mollitia, dolorum vero dicta non! Libero maiores ab, assumenda, sed aspernatur odit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veritatis omnis quaerat repellendus explicabo ipsa, voluptatum provident esse mollitia, dolorum vero dicta non! Libero maiores ab, assumenda, sed aspernatur odit!</div>
-		<div id="sidebar"></div>
+		<div id="divtwo">
+      <div class="overflow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veritatis omnis quaerat repellendus explicabo ipsa, voluptatum provident esse mollitia, dolorum vero dicta non! Libero maiores ab, assumenda, sed aspernatur odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veritatis omnis quaerat repellendus explicabo ipsa, voluptatum provident esse mollitia, dolorum vero dicta non! Libero maiores ab, assumenda, sed aspernatur odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veritatis omnis quaerat repellendus explicabo ipsa, voluptatum provident esse mollitia, dolorum vero dicta non! Libero maiores ab, assumenda, sed aspernatur odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veritatis omnis quaerat repellendus explicabo ipsa, voluptatum provident esse mollitia, dolorum vero dicta non! Libero maiores ab, assumenda, sed aspernatur odit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veritatis omnis quaerat repellendus explicabo ipsa, voluptatum provident esse mollitia, dolorum vero dicta non! Libero maiores ab, assumenda, sed aspernatur odit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis veritatis omnis quaerat repellendus explicabo ipsa, voluptatum provident esse mollitia, dolorum vero dicta non! Libero maiores ab, assumenda, sed aspernatur odit!</div>
+		</div>
+    <div id="sidebar"></div>
 		<h2>Heading 2</h2>
 		<div></div>
 		<div></div>

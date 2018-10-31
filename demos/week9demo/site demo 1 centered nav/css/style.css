@@ -46,10 +46,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 }
 
 #navbar-container {
-	text-align: center;
 	float: left;
 	width: 100%;
 	position: relative;
+  /*text-aling only works if you turn the content into inline-block*/
+	text-align: center;
 }
 
 #main-navbar {
@@ -60,6 +61,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+  /*inline-block treats it like inline text so text-align works on it*/
 	display: inline-block;
 	vertical-align: top;
 
